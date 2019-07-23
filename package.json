@@ -1,5 +1,5 @@
 {
-  "name": "linkedmodifies",
+  "name": "yema-tech@linkedmodifies",
   "version": "1.0.0",
   "description": "Plug-in for mongoose, to search collection dependencies and update.",
   "main": "index.js",
