@@ -1,0 +1,12 @@
+
+# Dependencies configuration for mongoose
+
+# Main collection
+suppliers: !!pairs
+# Dependencies collections
+  - products:
+      # fields linked [pk, fk]
+      fields: [_id, suppliers]
+products:
+  - suppliers:
+      fields: [_id, products]

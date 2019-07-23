@@ -11,7 +11,7 @@ const LinkedModifies = (() => {
 
   // Options defaults
   const _defaults = {
-    config: './dependencies.yml',
+    config: './config_example/dependencies.yml',
     logicalErase: false
   };
 
